@@ -11,7 +11,9 @@ const app = express();
 dbConnection();
 
 // cors
-app.use(cors());
+app.use(cors({
+    origin: 'https://www.calendar-app.francojuri.com',
+}));
 
 // Directorio Publico
 app.use(express.static('public'));
