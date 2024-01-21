@@ -12,7 +12,7 @@ dbConnection();
 
 // cors
 app.use(cors({
-    origin: 'https://www.calendar-app.francojuri.com',
+    origin: 'https://calendar-app-backend-lemon.vercel.app',
 }));
 
 // Directorio Publico
